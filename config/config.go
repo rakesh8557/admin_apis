@@ -15,6 +15,8 @@ var (
 	DB_NAME       = flag.String("DB_NAME", "test_db", "Database Name")
 	ENV           = flag.String("ENV", "dev", "Environment (dev|prod)")
 	LOG_FILE_PATH = flag.String("LOG_FILE_PATH", "D:/go_admin_apis_logs/app.log", "Path of the log file")
+	SERVER_HOST   = flag.String("SERVER_HOST", "localhost", "Server Host")
+	SERVER_PORT   = flag.String("SERVER_PORT", "8080", "Server Port")
 )
 
 func InitiateConfig() {
